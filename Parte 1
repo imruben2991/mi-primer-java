@@ -1,0 +1,14 @@
+public class Main {
+    public static int sumar(int a, int b, int c) {
+        return a + b + c;
+    }
+
+    public static void main(String[] args) {
+        int num1 = 20;
+        int num2 = 11;
+        int num3 = 1;
+
+        int resultado = sumar(num1, num2, num3);
+        System.out.println("La maravillosa suma de los tres números es: " + resultado + " esto es la mágia de java");
+    }
+}
